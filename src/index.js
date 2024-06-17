@@ -9,14 +9,14 @@ const routes = {
   // production
   "docker.tr0.top": dockerHub,
   "quay.tr0.top": "https://quay.io",
-  "gcr.libcuda.so": "https://gcr.io",
-  "k8s-gcr.libcuda.so": "https://k8s.gcr.io",
-  "k8s.libcuda.so": "https://registry.k8s.io",
-  "ghcr.libcuda.so": "https://ghcr.io",
-  "cloudsmith.libcuda.so": "https://docker.cloudsmith.io",
+  "gcr.tr0.top": "https://gcr.io",
+  "k8s-gcr.tr0.top": "https://k8s.gcr.io",
+  "k8s.tr0.top": "https://registry.k8s.io",
+  "ghcr.tr0.top": "https://ghcr.io",
+  "cloudsmith.tr0.top": "https://docker.cloudsmith.io",
 
   // staging
-  "docker-staging.libcuda.so": dockerHub,
+  "docker-staging.tr0.top": dockerHub,
 };
 
 function routeByHosts(host) {
